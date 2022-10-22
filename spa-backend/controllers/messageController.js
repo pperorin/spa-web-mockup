@@ -1,7 +1,7 @@
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 const Message = require('./../models/MessageModel');
-// const database = require('./../database/database');
+const database = require('./../database/database');
 
 exports.createMessage = catchAsync(async (req, res, next) => {
     const message = await Message.create(req.body);
