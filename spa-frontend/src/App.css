@@ -1,0 +1,74 @@
+.navbar {
+  background-color: grey;
+  height: 8vh;
+  width: 100vw;
+}
+
+.container {
+  height: 92vh;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.col {
+  width: 50vw;
+  text-align: center;
+}
+
+.div-input{
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 5%;
+  max-width: 60%;
+  min-height: 15%;
+  margin: 20%;
+}
+
+form{
+  padding: 30px;
+}
+
+.input-message{
+  padding:10px;
+  border-radius:5px;
+  margin-bottom: 15px;
+  width: 94%;
+}
+.input-message:hover{
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.btn{
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:100%;
+}
+.btn:hover{
+  background-color:#303F9F;
+}
+.btn:active{
+  outline:none;
+}
+
+
+.card{
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 5%;
+  min-width: 80%;
+  min-height: 15%;
+  margin: 20% 10%;
+}
+.card-body{
+  padding: 30px;
+}
