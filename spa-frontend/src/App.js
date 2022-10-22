@@ -21,7 +21,6 @@ function App() {
       method: 'GET',
     });
     let data = await res.json();
-    console.log(data);
     setListMessage(data.message);
   }
   useEffect(() => {
@@ -31,6 +30,10 @@ function App() {
 
   async function createMessage() {
     await fetch(URL.HOME_Page + '/', {
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
       method: 'POST',
       body: JSON.stringify({
         message: message
